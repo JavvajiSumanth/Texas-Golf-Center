@@ -16,6 +16,7 @@ import Yoga from "../components/Fitness/Yoga";
 import Memberships from "../components/Golf/Memberships";
 import Lessons from "../components/Golf/Lessons";
 import Fitness from "../views/Fitness";
+import FitnessMembership from "../components/Fitness/FitnessMembership";
 const Home = Loadable(lazy(() => import("../views/Home")));
 
 export default function TheRoutes() {
@@ -27,6 +28,11 @@ export default function TheRoutes() {
         <Route exact path="/memberships" element={<Memberships />} />
         <Route exact path="/lessons" element={<Lessons />} />
         <Route exact path="/fitness" element={<Fitness />} />
+        <Route
+          exact
+          path="/fitness-membership"
+          element={<FitnessMembership />}
+        />
 
         <Route exact path="/personal-training" element={<PersonalTraining />} />
         <Route exact path="/yoga" element={<Yoga />} />

@@ -1,10 +1,7 @@
 import React, { useRef, useState } from "react";
 import MapImg from "../../assets/images/us.png";
-import { db } from "../../firebase/firebase";
-import { doc, setDoc } from "firebase/firestore";
 import emailjs from "@emailjs/browser";
 
-import uniqid from "uniqid";
 const LeaveAMessage = ({ header }) => {
   const nameRef = useRef(null);
   const phoneRef = useRef(null);
@@ -14,13 +11,7 @@ const LeaveAMessage = ({ header }) => {
   const [submitted, setSubmitted] = useState(false);
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const data = {
-      name: nameRef.current.value,
-      phone: phoneRef.current.value,
-      email: emailRef.current.value,
-      description: descriptionRef.current.value,
-      date: new Date(),
-    };
+
     try {
       emailjs
         .sendForm(
@@ -31,7 +22,6 @@ const LeaveAMessage = ({ header }) => {
         )
         .then((result) => {
           console.log(result.text);
-          createEntry(data);
         })
         .catch((err) => {
           console.log(err);
@@ -41,16 +31,6 @@ const LeaveAMessage = ({ header }) => {
     } catch (error) {
       console.log(error);
     }
-  };
-
-  const createEntry = async (customer) => {
-    const genratedID = uniqid();
-    customer.id = genratedID;
-
-    const customerRef = doc(db, "messages", genratedID);
-    await setDoc(customerRef, customer);
-
-    resetRef.current.click();
   };
 
   const form = useRef();
@@ -64,7 +44,7 @@ const LeaveAMessage = ({ header }) => {
         backgroundColor: "#111111",
       }}
     >
-      <h1 className="uppercase tracking-wide text-3xl text-white text-center font-primary py-16">
+      <h1 className="uppercase tracking-wide text-3xl text-[#a3c332] text-center font-primary py-16">
         {header}
       </h1>
       {submitted && (
@@ -119,7 +99,7 @@ const LeaveAMessage = ({ header }) => {
 
           <button
             type="submit"
-            className="uppercase px-12 py-2 rounded-full outline outline-1 outline-white font-primary text-white hover:text-black hover:bg-white"
+            className="uppercase px-12 py-2 rounded-full outline outline-1 outline-white hover:outline-[#a3c332] font-primary text-white  hover:bg-[#a3c332]"
           >
             Submit
           </button>

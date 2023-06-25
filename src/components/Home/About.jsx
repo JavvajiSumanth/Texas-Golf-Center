@@ -12,7 +12,7 @@ const About = () => {
       </div>
       <div className="px-6 py-20 md:p-20 bg-stone-100">
         <div className="flex flex-col justify-center h-full text-left gap-5">
-          <h3 className=" text-[#333333] text-2xl font-primary">ABOUT US</h3>
+          <h3 className=" text-[#a3c332] text-2xl font-primary">ABOUT US</h3>
           <p className="text-secondary text-xl ">Texas Golf Center</p>
 
           <p className="text-secondary text-lg leading-relaxed">

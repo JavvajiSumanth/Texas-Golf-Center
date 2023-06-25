@@ -9,7 +9,9 @@ const AboutView = () => {
     <div>
       <MiniHeader heading={"About Us"} subHeading={""} />
       <div className="p-10  max-w-screen-lg mx-auto text-center tracking-wide">
-        <h1 className="font-primary text-center text-3xl my-10">ABOUT</h1>
+        <h1 className="font-primary text-center text-3xl my-10 text-[#a3c332]">
+          ABOUT
+        </h1>
         <hr className="max-w-lg mx-auto" />
 
         <p className="font-primary my-10  text-secondary leading-6 tracking-widest">

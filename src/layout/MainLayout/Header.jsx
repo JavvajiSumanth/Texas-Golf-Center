@@ -1,6 +1,4 @@
-import React, { useEffect, useState } from "react";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
+import React from "react";
 import NavBar from "./NavBar";
 import { Link } from "react-router-dom";
 
@@ -34,7 +32,7 @@ const Header = () => {
           <div className="flex justify-center flex-col items-center sm:flex-row">
             <Link
               to="contact"
-              className="transition-colors duration-300 text-white px-5 py-3 text-md rounded-full outline outline-1 sm:mr-5 mb-4 sm:mb-0 hover:text-black hover:bg-white hover:outline-white min-w-[190px] text-center cursor-pointer"
+              className="transition-colors duration-300 font-semibold text-white px-5 py-3 text-md rounded-full outline outline-1 sm:mr-5 mb-4 sm:mb-0 hover:bg-[#a3c332] hover:outline-[#a3c332] min-w-[190px] text-center cursor-pointer"
             >
               GET STARTED TODAY
             </Link>
@@ -47,38 +45,13 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <Carousel
-        autoPlay
-        infiniteLoop
-        animationHandler="fade"
-        swipeable={false}
-        showArrows={false}
-        showStatus={false}
-        showThumbs={false}
-        showIndicators={false}
-        interval={4000}
-        stopOnHover={false}
-      >
-        <div className="carousel-image-item">
-          <img
-            className="h-full min-h-screen object-center"
-            src={Image}
-            alt="the "
-          />
-        </div>
-        {/* <div className="carousel-image-item">
-          <img
-            className="h-full min-h-screen object-cover brightness-90"
-            src={images[1]}
-          />
-        </div>
-        <div className="carousel-image-item">
-          <img
-            className="h-full min-h-screen object-cover brightness-90"
-            src={images[2]}
-          />
-        </div> */}
-      </Carousel>
+      <div className="carousel-image-item">
+        <img
+          className="h-full min-h-screen object-center"
+          src={Image}
+          alt="the "
+        />
+      </div>
     </div>
   );
 };

@@ -32,7 +32,7 @@ const NavBar = () => {
   return (
     <>
       <div className="fixed z-50 w-full " ref={navRef}>
-        <div className="h-16 hidden lg:flex items-center font-semibold p-10">
+        <div className="h-16 hidden lg:flex items-center font-semibold p-10 links">
           <div className="mr-auto p-3">
             <Link to={"/"}>
               <img
@@ -62,7 +62,7 @@ const NavBar = () => {
           <div className="dropdown p-3">
             <button className="dropbtn">FITNESS</button>
             <div className="dropdown-content">
-              <Link to="/memberships">MEMBERSHIPS</Link>
+              <Link to="/fitness-membership">MEMBERSHIPS</Link>
 
               <div class="relative group2">
                 <Link to="/resident-resources">SERVICES</Link>
