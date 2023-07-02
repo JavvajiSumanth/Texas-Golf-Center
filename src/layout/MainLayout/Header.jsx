@@ -31,7 +31,7 @@ const Header = () => {
 
           <div className="flex justify-center flex-col items-center sm:flex-row">
             <Link
-              to="contact"
+              to="rates"
               className="transition-colors duration-300 font-semibold text-white px-5 py-3 text-md rounded-full outline outline-1 sm:mr-5 mb-4 sm:mb-0 hover:bg-[#a3c332] hover:outline-[#a3c332] min-w-[190px] text-center cursor-pointer"
             >
               GET STARTED TODAY

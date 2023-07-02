@@ -109,11 +109,15 @@
   text-align: center;
   position: relative;
   cursor: pointer;
-  box-shadow: 0 10px 15px -3px rgba(33, 150, 243, 0.4),
-    0 4px 6px -4px rgba(33, 150, 243, 0.4);
+  box-shadow: 0 10px 15px -3px rgba(163, 195, 50, 0.4),
+    0 4px 6px -4px rgba(163, 195, 50, 0.4);
   border-radius: 10px;
   background-color: #6b6ecc;
-  background: linear-gradient(45deg, #04051dea 0%, #2b566e 100%);
+  background: linear-gradient(
+    45deg,
+    #04051dea 0%,
+    rgba(163, 195, 50, 0.4) 100%
+  );
 }
 
 .content {
@@ -153,9 +157,9 @@
   font-weight: 700;
   font-size: 0.75rem;
   padding: 0.75rem 1.5rem;
-  background-color: rgb(33 150 243);
-  /*
   background-color: rgb(163, 195, 50);
+  /*
+  background-color: rgb(33 150 243);
 */
   border-radius: 0.5rem;
   width: 90%;
@@ -230,11 +234,15 @@ input:checked + .slider:before {
   text-align: center;
   position: relative;
   cursor: pointer;
-  box-shadow: 0 10px 15px -3px rgba(33, 150, 243, 0.4),
-    0 4px 6px -4px rgba(33, 150, 243, 0.4);
+  box-shadow: 0 10px 15px -3px rgba(163, 195, 50, 0.4),
+    0 4px 6px -4px rgba(163, 195, 50, 0.4);
   border-radius: 10px;
   background-color: #6b6ecc;
-  background: linear-gradient(45deg, #04051dea 0%, #2b566e 100%);
+  background: linear-gradient(
+    45deg,
+    #04051dea 0%,
+    rgba(163, 195, 50, 0.4) 100%
+  );
 }
 
 .content-membership {
@@ -274,9 +282,30 @@ input:checked + .slider:before {
   text-align: center;
   position: relative;
   cursor: pointer;
-  box-shadow: 0 10px 15px -3px rgba(33, 150, 243, 0.4),
-    0 4px 6px -4px rgba(33, 150, 243, 0.4);
+  box-shadow: 0 10px 15px -3px rgba(163, 195, 50, 0.4),
+    0 4px 6px -4px rgba(163, 195, 50, 0.4);
   border-radius: 10px;
   background-color: #6b6ecc;
-  background: linear-gradient(45deg, #04051dea 0%, #2b566e 100%);
+  background: linear-gradient(
+    45deg,
+    #04051dea 0%,
+    rgba(163, 195, 50, 0.4) 100%
+  );
+}
+.gradient {
+  background: #56ab2f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #a8e063,
+    #56ab2f
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #a8e063,
+    #56ab2f
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-greens {
+  background-color: rgb(163, 195, 50);
 }

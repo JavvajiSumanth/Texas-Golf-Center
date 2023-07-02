@@ -8,8 +8,8 @@ const Membership = () => {
   return (
     <div>
       <MiniHeader heading={"Membership"} subHeading={""} />
-      <div className="text-slate-100 bg-slate-900 pt-10 font-primary">
-        <h1 className=" tracking-wide text-2xl sm:text-4xl md:text-5xl lg:text-7xl text-white font-bold   font-primary text-center py-8 px-4  w-fit m-auto border rounded-xl">
+      <div className="text-slate-100 bg-lime-950 pt-10 font-primary">
+        <h1 className=" tracking-wide text-2xl sm:text-4xl md:text-5xl lg:text-7xl text-green-600 font-bold  font-primary text-center py-8 px-4  w-fit m-auto rounded-xl">
           Become a TGC member today!
         </h1>
         <div className="m-auto w-full py-8 flex items-center justify-center gap-4 text-xl font-bold">
@@ -28,7 +28,9 @@ const Membership = () => {
           <div class="mx-4 grid grid-cols-1  lg:grid-cols-2 pb-6 justify-items-center gap-y-8">
             <div class="card-member font-primary">
               <div class="content-membership">
-                <div class="text-5xl font-bold font-primary">Hole-in-One</div>
+                <div class="text-5xl font-bold font-primary text-green-600">
+                  Hole-in-One
+                </div>
                 <div class="title font-primary text-4xl">
                   Monthly Membership
                 </div>
@@ -57,7 +59,9 @@ const Membership = () => {
             </div>
             <div class="card-member font-primary">
               <div class="content-membership">
-                <div class="text-5xl font-bold font-primary">Range</div>
+                <div class="text-5xl font-bold font-primary text-green-600">
+                  Range
+                </div>
                 <div class="title font-primary text-4xl">
                   Monthly Membership
                 </div>
@@ -89,7 +93,9 @@ const Membership = () => {
           <div class="mx-4 grid grid-cols-1  lg:grid-cols-2 pb-6 justify-items-center gap-y-8">
             <div class="card-member font-primary">
               <div class="content-membership">
-                <div class="text-5xl font-bold font-primary">Hole-in-One</div>
+                <div class="text-5xl font-bold font-primary text-green-600">
+                  Hole-in-One
+                </div>
                 <div class="title font-primary text-4xl">Yearly Membership</div>
                 <div class="description text-justify ">
                   Experience our golf course during member rounds, unlimited
@@ -116,7 +122,9 @@ const Membership = () => {
             </div>
             <div class="card-member font-primary">
               <div class="content-membership">
-                <div class="text-5xl font-bold font-primary">Range</div>
+                <div class="text-5xl font-bold font-primary text-green-600">
+                  Range
+                </div>
                 <div class="title font-primary text-4xl">Yearly Membership</div>
                 <div class="description text-justify ">
                   Perfect your game with unlimited range balls on the driving
@@ -139,7 +147,7 @@ const Membership = () => {
                   </div>
                 </div>
               </div>
-              <button className="btn-custom-rate">Buy now</button>
+              <button className="btn-custom-rate bg-green-500">Buy now</button>
             </div>
           </div>
         )}

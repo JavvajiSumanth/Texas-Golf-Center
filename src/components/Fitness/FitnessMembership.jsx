@@ -7,8 +7,8 @@ const FitnessMembership = () => {
   return (
     <div>
       <MiniHeader heading={"GYM Membership"} subHeading={""} />
-      <div className="text-slate-100 bg-slate-900 pt-10 font-primary">
-        <h1 className=" tracking-wide text-2xl sm:text-4xl md:text-5xl lg:text-7xl text-white font-bold   font-primary text-center py-8 px-4  w-fit m-auto border rounded-xl">
+      <div className="text-slate-100 bg-lime-950 pt-10 font-primary">
+        <h1 className=" tracking-wide text-2xl sm:text-4xl md:text-5xl lg:text-7xl text-green-600 font-bold  font-primary text-center py-8 px-4  w-fit m-auto  rounded-xl">
           Become a TGC GYM member today!
         </h1>
         <div className="m-auto w-full py-8 flex items-center justify-center gap-4 text-xl font-bold">
@@ -27,7 +27,7 @@ const FitnessMembership = () => {
           <div class="mx-4 grid grid-cols-1 pb-8 justify-items-center gap-y-8">
             <div class="card-fitness font-primary">
               <div class="content-membership">
-                <div class="text-5xl font-bold font-primary mb-8">
+                <div class="text-5xl font-bold font-primary mb-8 text-green-600">
                   Monthly Membership
                 </div>
 
@@ -60,7 +60,7 @@ const FitnessMembership = () => {
           <div class="mx-4 grid grid-cols-1 pb-8 justify-items-center gap-y-8">
             <div class="card-fitness font-primary ">
               <div class="content-membership">
-                <div class="text-5xl font-bold font-primary mb-8">
+                <div class="text-5xl font-bold font-primary mb-8 text-green-600">
                   Yearly Membership
                 </div>
 

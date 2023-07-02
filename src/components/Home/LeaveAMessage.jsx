@@ -36,12 +36,11 @@ const LeaveAMessage = ({ header }) => {
   const form = useRef();
   return (
     <div
-      className="min-h-[80vh] bg-contain bg-no-repeat bg-center "
+      className="min-h-[80vh] bg-cover bg-no-repeat bg-center "
       style={{
         // backgroundImage: `linear-gradient(to right,#000000a8, #000000a8), url(${MapImg})`,
 
-        backgroundImage: `url(${MapImg})`,
-        backgroundColor: "#111111",
+        backgroundImage: `linear-gradient(rgba(0,0,0,0.68), rgba(0,0,0,0.68)), url(https://images.unsplash.com/photo-1535131749006-b7f58c99034b)`,
       }}
     >
       <h1 className="uppercase tracking-wide text-3xl text-[#a3c332] text-center font-primary py-16">

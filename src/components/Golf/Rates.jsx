@@ -7,11 +7,11 @@ const Rates = () => {
     <div>
       <MiniHeader heading={"Rates"} subHeading={""} />
 
-      <div className="text-slate-100 bg-slate-900 pb-10">
-        <h1 className="uppercase tracking-wide text-3xl  sm:text-4xl text-white font-bold   font-primary text-center py-8">
+      <div className="text-slate-100 bg-lime-950 pb-10">
+        <h1 className="uppercase tracking-wide text-3xl  sm:text-4xl text-green-600 font-bold   font-primary text-center py-8">
           BOOK YOUR TEE TIME ONLINE
         </h1>
-        <h1 className="uppercase tracking-wide text-4xl text-white font-bold   font-primary text-center py-4">
+        <h1 className="uppercase tracking-wide text-4xl text-green-600 font-bold   font-primary text-center py-4">
           SPRING RATES
         </h1>
         <div class="mx-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 py-6 justify-items-center gap-y-8">
@@ -28,7 +28,7 @@ const Rates = () => {
           <div class="card">
             <div class="content">
               <div class="title">9 HOLES</div>
-              <div class="price">$10</div>
+              <div class="price text-green-800">$10</div>
               <div class="description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Curabitur at posuere eros.
@@ -39,7 +39,7 @@ const Rates = () => {
           <div class="card">
             <div class="content">
               <div class="title">9+ CART</div>
-              <div class="price">$18</div>
+              <div class="price text-green-800">$18</div>
               <div class="description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Curabitur at posuere eros.
@@ -50,7 +50,7 @@ const Rates = () => {
           <div class="card">
             <div class="content">
               <div class="title">18 HOLES</div>
-              <div class="price">$15</div>
+              <div class="price text-green-800">$15</div>
               <div class="description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Curabitur at posuere eros.
@@ -61,7 +61,7 @@ const Rates = () => {
           <div class="card">
             <div class="content">
               <div class="title">18+ CART</div>
-              <div class="price">$25</div>
+              <div class="price text-green-800">$25</div>
               <div class="description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Curabitur at posuere eros.

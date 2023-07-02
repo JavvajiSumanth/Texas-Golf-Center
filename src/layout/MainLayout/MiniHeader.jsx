@@ -4,10 +4,10 @@ import NavBar from "./NavBar";
 const MiniHeader = ({ heading, subHeading }) => {
   return (
     <div
-      className="overflow-hidden bg-black bg-cover bg-center relative"
+      className="overflow-hidden bg-cover bg-center relative"
       style={{
         backgroundImage:
-          "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://images.pexels.com/photos/1325683/pexels-photo-1325683.jpeg",
+          "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://www.tsgacademy.in/images/inner-bg.jpg",
       }}
     >
       <NavBar />

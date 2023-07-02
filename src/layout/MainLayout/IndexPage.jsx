@@ -127,7 +127,7 @@ export default function IndexPage() {
               </nav>
             </details>
             <Link
-              to="/"
+              to="/event"
               className="flex items-center gap-2 rounded-lg  px-4 py-2 text-gray-300 hover:bg-gray-100 hover:text-gray-800"
             >
               <span className="text-sm font-medium"> Event Venue </span>
