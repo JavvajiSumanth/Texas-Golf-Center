@@ -10,7 +10,7 @@ const PersonalTraining = () => {
         <div className="p-8 grid grid-cols-1 lg:grid-cols-2 gap-6 w-full mx-auto">
           <div className="sticky top-0">
             <img
-              src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_600,c_fit/dpr_2/v1/cult-media/v2web/workouts/1_id/PRODUCT_BNR_2021-11-03T07:57:46.615Z.png"
+              src="https://media.istockphoto.com/id/675179390/photo/muscular-trainer-writing-on-clipboard.jpg?s=612x612&w=0&k=20&c=9NKx1AwVMpPY0YBlk5H-hxx2vJSCu1Wc78BKRM9wFq0="
               alt="hyoga"
             />
           </div>

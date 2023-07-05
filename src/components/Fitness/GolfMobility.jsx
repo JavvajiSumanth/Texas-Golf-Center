@@ -13,7 +13,7 @@ const GolfMobility = () => {
         <div className="p-8 grid grid-cols-1 lg:grid-cols-2 gap-6 w-full mx-auto">
           <div className="sticky top-0">
             <img
-              src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_600,c_fit/dpr_2/v1/cult-media/v2web/workouts/1_id/PRODUCT_BNR_2021-11-03T07:57:46.615Z.png"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCNAb9kr1mzP_bKb-b8lTkAl6gYxL1FQNHhA&usqp=CAU"
               alt="hGolfMobility"
             />
           </div>

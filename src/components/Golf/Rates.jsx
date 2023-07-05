@@ -12,7 +12,7 @@ const Rates = () => {
           BOOK YOUR TEE TIME ONLINE
         </h1>
         <h1 className="uppercase tracking-wide text-4xl text-green-600 font-bold   font-primary text-center py-4">
-          SPRING RATES
+           RATES
         </h1>
         <div class="mx-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 py-6 justify-items-center gap-y-8">
           {/* <div class="mb-4 break-inside p-6 rounded-xl bg-slate-800 flex flex-col bg-clip-border">
@@ -45,27 +45,11 @@ const Rates = () => {
             </div>
             {/* <button className="btn-custom-rate">Buy now</button> */}
           </div>
-          <div class="card">
-            <div class="content">
-              <div class="title">18 HOLES</div>
-              <div class="price text-green-800">$15</div>
-              <div class="description">
-              Embark on a full 18-hole golfing journey at an incredible value of only $15, offering a memorable and affordable experience for enthusiasts.
-              </div>
-            </div>
-            {/* <button className="btn-custom-rate">Buy now</button> */}
+         
+            
+           
           </div>
-          <div class="card">
-            <div class="content">
-              <div class="title">18+ CART</div>
-              <div class="price text-green-800">$25</div>
-              <div class="description">
-              Elevate your golfing experience to new heights with 18 or more Holes, paired with the convenience of a cart, all for just $25, delivering an unbeatable combination of value and enjoyment.
-              </div>
-            </div>
-            {/* <button className="btn-custom-rate">Buy now</button> */}
-          </div>
-        </div>
+  
       </div>
 
       <Footer />
