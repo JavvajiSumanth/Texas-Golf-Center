@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import LogoImg from "../../assets/images/white-logo.png";
+import LogoImg from "../../assets/images/logo.jpeg";
 import IndexPage from "./IndexPage";
 import { FiMenu } from "react-icons/fi";
 

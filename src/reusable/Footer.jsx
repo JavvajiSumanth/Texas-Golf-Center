@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import LogoImg from "../assets/images/white-logo.png";
+import LogoImg from "../assets/images/logo.jpeg";
 
 const Footer = () => {
   return (
@@ -17,11 +17,11 @@ const Footer = () => {
               className="mx-auto"
             />
             <p className="mt-4">
-              Texas 9 is committed to ensuring that its website is
-              accessible to people with disabilities. All the pages on our
-              website will meet W3C WAI's Web Content Accessibility Guidelines
-              2.0, Level A conformance. Any issues should be reported to
-              contact@texas9.com. Website Accessibility Policy
+              Texas 9 is committed to ensuring that its website is accessible to
+              people with disabilities. All the pages on our website will meet
+              W3C WAI's Web Content Accessibility Guidelines 2.0, Level A
+              conformance. Any issues should be reported to contact@texas9.com.
+              Website Accessibility Policy
             </p>
           </div>
           <div className="">
@@ -56,8 +56,7 @@ const Footer = () => {
           </div>
         </div>
         <p className="text-center">
-          Copyright {new Date().getFullYear()} Texas 9 . All Rights
-          Reserved.
+          Copyright {new Date().getFullYear()} Texas 9 . All Rights Reserved.
         </p>
       </div>
     </div>
