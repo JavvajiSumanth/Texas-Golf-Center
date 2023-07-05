@@ -13,20 +13,17 @@ const About = () => {
       <div className="px-6 py-20 md:p-20 bg-stone-100">
         <div className="flex flex-col justify-center h-full text-left gap-5">
           <h3 className=" text-[#a3c332] text-2xl font-primary">ABOUT US</h3>
-          <p className="text-secondary text-xl ">Texas Golf Center</p>
+          <p className="text-secondary text-xl ">Texas 9</p>
 
           <p className="text-secondary text-lg leading-relaxed">
-            To us, Property Management not only includes the basic operation,
-            control and oversight of real estate assets, but it also means
-            developing strategies and taking actions to maximize property values
-            and investment returns.
+          Texas 9 offers an exceptional golf experience with a 9-hole executive course, a lighted driving range, practice greens, and a range of amenities including a fitness center. With professional golf lessons, versatile event spaces, and memberships available, it's a destination that combines golf, leisure, and entertainment. 
           </p>
-          <p className="text-secondary text-lg leading-relaxed">
+          {/* <p className="text-secondary text-lg leading-relaxed">
             This is what separates Texas Golf Center from the rest. We are
             driven to find ways to reduce expenditures, expand revenue streams,
             harmonize tenant relations, and take actions today that will create
             value tomorrow.
-          </p>
+          </p> */}
         </div>
       </div>
     </div>

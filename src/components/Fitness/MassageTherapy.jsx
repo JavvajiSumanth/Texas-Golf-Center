@@ -19,17 +19,13 @@ const MassageTherapy = () => {
               Massage Therapy
             </h1>
             <h1 className="tracking-wide text-md font-primary  my-3 ">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum
-              iste similique sequi vel voluptas cupiditate iusto alias
-              necessitatibus, aut fugit ipsam ab voluptates aperiam, facilis
-              numquam reprehenderit modi repellat saepe voluptatum. Ut, eos.
+            Indulge in the ultimate relaxation and rejuvenation with our exquisite Massage Therapy sessions, tailored to release tension, alleviate muscle soreness, and promote overall physical and mental well-being.
             </h1>
             <h1 className="uppercase tracking-wide my-3 text-2xl font-primary font-bold text-green-600">
               BENEFIT
             </h1>
             <h1 className=" my-4 tracking-wide text-xl font-primary font-bold ">
-              Flexibility | Stress reduction | Mental & Emotional Well Being
-            </h1>
+              Muscle Tension Relief | Improved Posture and Alignment | Enhanced Immune Function           </h1>
 
             <div className="flex flex-col justify-between bg-lime-800 rounded-lg border-2 border-gray-400 mb-6 py-5 px-4">
               <div>
@@ -37,6 +33,9 @@ const MassageTherapy = () => {
                   A typical MassageTherapy session
                 </h4>
                 <p className="text-gray-100 text-sm">
+                Embark on a blissful journey of relaxation and healing with our signature Massage Therapy session, combining skilled hands-on techniques, soothing aromatherapy, and tranquil ambiance for a truly rejuvenating experience.
+                </p>
+                {/* <p className="text-gray-100 text-sm">
                   Probabo, inquit, sic agam, ut labore et voluptatem sequi
                   nesciunt, neque porro quisquam est, quid malum, sensu
                   iudicari, sed ut alterum.
@@ -45,14 +44,9 @@ const MassageTherapy = () => {
                   Probabo, inquit, sic agam, ut labore et voluptatem sequi
                   nesciunt, neque porro quisquam est, quid malum, sensu
                   iudicari, sed ut alterum.
-                </p>
-                <p className="text-gray-100 text-sm">
-                  Probabo, inquit, sic agam, ut labore et voluptatem sequi
-                  nesciunt, neque porro quisquam est, quid malum, sensu
-                  iudicari, sed ut alterum.
-                </p>
+                </p> */}
               </div>
-              <div>
+              {/* <div>
                 <div className="flex items-center justify-between text-gray-800">
                   <p className="text-sm dark:text-gray-100">March 28, 2020</p>
 
@@ -65,7 +59,7 @@ const MassageTherapy = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

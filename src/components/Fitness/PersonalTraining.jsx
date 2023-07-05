@@ -19,24 +19,24 @@ const PersonalTraining = () => {
               Personal Training
             </h1>
             <h1 className="tracking-wide text-md font-primary  my-3 ">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum
-              iste similique sequi vel voluptas cupiditate iusto alias
-              necessitatibus, aut fugit ipsam ab voluptates aperiam, facilis
-              numquam reprehenderit modi repellat saepe voluptatum. Ut, eos.
+            Achieve your fitness goals faster and with personalized guidance through our exceptional Personal Training program. Our certified trainers will design tailored workout routines, provide expert coaching, and offer ongoing support, empowering you to maximize your potential and reach new levels of strength, endurance, and overall fitness. Elevate your training experience and unlock your fitness potential with our dedicated Personal Training sessions.
             </h1>
             <h1 className="uppercase tracking-wide my-3 text-2xl font-primary font-bold text-green-600">
               BENEFIT
             </h1>
             <h1 className=" my-4 tracking-wide text-xl font-primary font-bold ">
-              Flexibility | Stress reduction | Mental & Emotional Well Being
+              Pre-Workout Mobility & Stretching | Resistance-Balance-Performance Training | Cooldown & Massage Therapy
             </h1>
 
             <div className="flex flex-col justify-between bg-lime-800 rounded-lg border-2 border-gray-400 mb-6 py-5 px-4">
               <div>
                 <h4 className="text-gray-100 font-bold mb-3">
-                  A typical yoga session
+                  A typical Personal Training
                 </h4>
                 <p className="text-gray-100 text-sm">
+                Embark on a transformative fitness journey with our personalized Personal Training sessions, tailored to your specific goals, providing expert guidance, and maximizing your potential for success.
+                </p>
+                {/* <p className="text-gray-100 text-sm">
                   Probabo, inquit, sic agam, ut labore et voluptatem sequi
                   nesciunt, neque porro quisquam est, quid malum, sensu
                   iudicari, sed ut alterum.
@@ -45,14 +45,9 @@ const PersonalTraining = () => {
                   Probabo, inquit, sic agam, ut labore et voluptatem sequi
                   nesciunt, neque porro quisquam est, quid malum, sensu
                   iudicari, sed ut alterum.
-                </p>
-                <p className="text-gray-100 text-sm">
-                  Probabo, inquit, sic agam, ut labore et voluptatem sequi
-                  nesciunt, neque porro quisquam est, quid malum, sensu
-                  iudicari, sed ut alterum.
-                </p>
+                </p> */}
               </div>
-              <div>
+              {/* <div>
                 <div className="flex items-center justify-between text-gray-800">
                   <p className="text-sm dark:text-gray-100">March 28, 2020</p>
 
@@ -65,7 +60,7 @@ const PersonalTraining = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

@@ -57,7 +57,7 @@ const LeaveAMessage = ({ header }) => {
             GET IN TOUCH
           </h1>
           <p className="text-secondary mt-4 text-md tracking-wide">
-            Let's chat about your real estate management needs.
+          Let's talk about your golfing experience at Texas Golf Center.
           </p>
         </div>
         <form onSubmit={handleSubmit} ref={form}>
@@ -93,7 +93,7 @@ const LeaveAMessage = ({ header }) => {
             cols="30"
             rows="6"
             ref={descriptionRef}
-            placeholder="Describe your property needs"
+            placeholder="Tell us about your golf facility requirements."
           ></textarea>
 
           <button

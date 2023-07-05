@@ -25,7 +25,7 @@ const Contact = () => {
               </div>
 
               <div>
-                <h2 className="font-primary text-xl mb-1">Fort Worth Office</h2>
+                <h2 className="font-primary text-xl mb-1">Fort Worth Location</h2>
                 <p className="text-black">
                   <a
                     href="https://www.bing.com/maps?osid=33722351-871f-4413-961a-de30d5342d6d&cp=32.763407~-97.155837&lvl=16&v=2&sV=2&form=S00027"
@@ -44,7 +44,7 @@ const Contact = () => {
 
               <div>
                 <h2 className="font-primary text-xl mb-1">
-                  <a href="tel:+1-817-600-6228">+1 (817) 600-6228</a>
+                  <a href="tel:+1-817-303-4370">+1 (817) 303-4370</a>
                 </h2>
               </div>
             </div>
@@ -56,7 +56,7 @@ const Contact = () => {
 
               <div>
                 <h2 className="font-primary text-xl mb-1">
-                  <a href="mailto:rent@enochdfw.com">rent@enochdfw.com</a>
+                  <a href="mailto:contact@texas9.com">contact@texas9.com</a>
                 </h2>
               </div>
             </div>
@@ -68,10 +68,9 @@ const Contact = () => {
 
               <div>
                 <h2 className="font-primary text-xl mb-1">
-                  M-F 8:30 am – 5 pm
-                  <br /> Saturday 9 am – 2 pm
-                  <br />
-                  Our office is closed Sundays.
+                  Monday-Sunday 7:00 am – 9:00 pm
+                  
+                  
                 </h2>
               </div>
             </div>

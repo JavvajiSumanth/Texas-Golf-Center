@@ -30,44 +30,40 @@ const Rates = () => {
               <div class="title">9 HOLES</div>
               <div class="price text-green-800">$10</div>
               <div class="description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Curabitur at posuere eros.
+              Enjoy a quick and affordable golfing experience with 9 Holes, where you can tee off for just $10.
               </div>
             </div>
-            <button className="btn-custom-rate">Buy now</button>
+            {/* <button className="btn-custom-rate">Buy now</button> */}
           </div>
           <div class="card">
             <div class="content">
               <div class="title">9+ CART</div>
               <div class="price text-green-800">$18</div>
               <div class="description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Curabitur at posuere eros.
+              Enhance your golfing adventure with the convenience and comfort of a cart while playing more than 9 Holes, all for an unbeatable price of $18.
               </div>
             </div>
-            <button className="btn-custom-rate">Buy now</button>
+            {/* <button className="btn-custom-rate">Buy now</button> */}
           </div>
           <div class="card">
             <div class="content">
               <div class="title">18 HOLES</div>
               <div class="price text-green-800">$15</div>
               <div class="description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Curabitur at posuere eros.
+              Embark on a full 18-hole golfing journey at an incredible value of only $15, offering a memorable and affordable experience for enthusiasts.
               </div>
             </div>
-            <button className="btn-custom-rate">Buy now</button>
+            {/* <button className="btn-custom-rate">Buy now</button> */}
           </div>
           <div class="card">
             <div class="content">
               <div class="title">18+ CART</div>
               <div class="price text-green-800">$25</div>
               <div class="description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Curabitur at posuere eros.
+              Elevate your golfing experience to new heights with 18 or more Holes, paired with the convenience of a cart, all for just $25, delivering an unbeatable combination of value and enjoyment.
               </div>
             </div>
-            <button className="btn-custom-rate">Buy now</button>
+            {/* <button className="btn-custom-rate">Buy now</button> */}
           </div>
         </div>
       </div>

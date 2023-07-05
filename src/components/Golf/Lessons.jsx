@@ -19,10 +19,7 @@ const Lessons = () => {
               Lessons
             </h1>
             <h1 className="tracking-wide text-md font-primary  my-3 ">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum
-              iste similique sequi vel voluptas cupiditate iusto alias
-              necessitatibus, aut fugit ipsam ab voluptates aperiam, facilis
-              numquam reprehenderit modi repellat saepe voluptatum. Ut, eos.
+            By enrolling in a Golf School for a weekend or week-long immersion or opting for a private lesson with a skilled instructor, you can experience significant advancements in your golf game within a short time frame, benefiting from comprehensive instruction on the Full Swing and Short Game while receiving valuable feedback through video analysis and cutting-edge technology like the TrackMan Launch Monitor. To kickstart your golfing journey, there's no better decision than joining our Golf Schools or scheduling a private lesson with our esteemed instructors.
             </h1>
             <h1 className="uppercase tracking-wide my-3 text-2xl font-primary font-bold text-green-600">
               BENEFIT
@@ -37,6 +34,9 @@ const Lessons = () => {
                   A typical Golf Mobility session
                 </h4>
                 <p className="text-gray-100 text-sm">
+                Experience a revitalizing Golf Mobility session designed to improve your flexibility, range of motion, and overall physical performance on the golf course. Through a combination of targeted exercises, stretches, and movements, this session aims to enhance your golf swing mechanics, prevent injuries, and optimize your body's potential for a more fluid and powerful game. Unlock your body's agility and unleash your golfing potential with our invigorating Golf Mobility session.
+                </p>
+                {/* <p className="text-gray-100 text-sm">
                   Probabo, inquit, sic agam, ut labore et voluptatem sequi
                   nesciunt, neque porro quisquam est, quid malum, sensu
                   iudicari, sed ut alterum.
@@ -45,25 +45,20 @@ const Lessons = () => {
                   Probabo, inquit, sic agam, ut labore et voluptatem sequi
                   nesciunt, neque porro quisquam est, quid malum, sensu
                   iudicari, sed ut alterum.
-                </p>
-                <p className="text-gray-100 text-sm">
-                  Probabo, inquit, sic agam, ut labore et voluptatem sequi
-                  nesciunt, neque porro quisquam est, quid malum, sensu
-                  iudicari, sed ut alterum.
-                </p>
+                </p> */}
               </div>
               <div>
                 <div className="flex items-center justify-between text-gray-800">
-                  <p className="text-sm dark:text-gray-100">March 28, 2020</p>
+                  {/* <p className="text-sm dark:text-gray-100">March 28, 2020</p> */}
 
-                  <div className="border  bg-greens border-gray-300 h-8 w-24 mb-4 md:mb-0 rounded-full flex items-center justify-center">
+                  {/* <div className="border  bg-greens border-gray-300 h-8 w-24 mb-4 md:mb-0 rounded-full flex items-center justify-center">
                     <div className="flex items-center">
                       <div className="h-1 w-1 rounded-full bg-greens mr-1" />
-                      <span className="text-xs font-normal text-white">
+                      {/* <span className="text-xs font-normal text-white">
                         Book
-                      </span>
+                      </span> 
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

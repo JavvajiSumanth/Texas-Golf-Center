@@ -17,11 +17,11 @@ const Footer = () => {
               className="mx-auto"
             />
             <p className="mt-4">
-              Texas Golf Center is committed to ensuring that its website is
+              Texas 9 is committed to ensuring that its website is
               accessible to people with disabilities. All the pages on our
               website will meet W3C WAI's Web Content Accessibility Guidelines
               2.0, Level A conformance. Any issues should be reported to
-              rent@enochdfw.com. Website Accessibility Policy
+              contact@texas9.com. Website Accessibility Policy
             </p>
           </div>
           <div className="">
@@ -43,8 +43,8 @@ const Footer = () => {
               Contact Info
             </h1>
             <div className="flex flex-col space-y-1 text-secondary mt-4">
-              <a href="tel:+1-817-600-6228">Phone: +1 (817) 333-4444</a>
-              <a href="mailto:rent@enochdfw.com">E-mail: test@test.com</a>
+              <a href="tel:+1-817-303-4370">Phone: +1 (817) 303-4370</a>
+              <a href="mailto:contact@texas9.com">E-mail: contact@texas9.com</a>
               <a
                 href="https://www.bing.com/maps?osid=33722351-871f-4413-961a-de30d5342d6d&cp=32.763407~-97.155837&lvl=16&v=2&sV=2&form=S00027"
                 target={"_blank"}
@@ -56,7 +56,7 @@ const Footer = () => {
           </div>
         </div>
         <p className="text-center">
-          Copyright {new Date().getFullYear()} Texas Golf Center . All Rights
+          Copyright {new Date().getFullYear()} Texas 9 . All Rights
           Reserved.
         </p>
       </div>

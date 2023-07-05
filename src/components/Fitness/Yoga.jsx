@@ -19,10 +19,7 @@ const Yoga = () => {
               Yoga
             </h1>
             <h1 className="tracking-wide text-md font-primary  my-3 ">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum
-              iste similique sequi vel voluptas cupiditate iusto alias
-              necessitatibus, aut fugit ipsam ab voluptates aperiam, facilis
-              numquam reprehenderit modi repellat saepe voluptatum. Ut, eos.
+            Discover inner peace and enhance your physical and mental well-being through our transformative Yoga classes, fostering balance, flexibility, and mindfulness for a harmonious and rejuvenating experience.
             </h1>
             <h1 className="uppercase tracking-wide my-3 text-2xl font-primary font-bold text-green-600">
               BENEFIT
@@ -34,9 +31,12 @@ const Yoga = () => {
             <div className="flex flex-col justify-between bg-lime-800 rounded-lg border-2 border-gray-400 mb-6 py-5 px-4">
               <div>
                 <h4 className="text-gray-100 font-bold mb-3">
-                  A typical yoga session
+                  A typical Yoga session
                 </h4>
                 <p className="text-gray-100 text-sm">
+                Embark on a rejuvenating journey of self-discovery and holistic well-being with our transformative Yoga session, combining soothing movements, mindful breathing, and relaxation techniques for a harmonious and revitalizing experience.
+                </p>
+                {/* <p className="text-gray-100 text-sm">
                   Probabo, inquit, sic agam, ut labore et voluptatem sequi
                   nesciunt, neque porro quisquam est, quid malum, sensu
                   iudicari, sed ut alterum.
@@ -45,14 +45,9 @@ const Yoga = () => {
                   Probabo, inquit, sic agam, ut labore et voluptatem sequi
                   nesciunt, neque porro quisquam est, quid malum, sensu
                   iudicari, sed ut alterum.
-                </p>
-                <p className="text-gray-100 text-sm">
-                  Probabo, inquit, sic agam, ut labore et voluptatem sequi
-                  nesciunt, neque porro quisquam est, quid malum, sensu
-                  iudicari, sed ut alterum.
-                </p>
+                </p> */}
               </div>
-              <div>
+              {/* <div>
                 <div className="flex items-center justify-between text-gray-800">
                   <p className="text-sm dark:text-gray-100">March 28, 2020</p>
 
@@ -65,8 +60,8 @@ const Yoga = () => {
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
+              </div> */}
+            </div> 
           </div>
         </div>
       </div>

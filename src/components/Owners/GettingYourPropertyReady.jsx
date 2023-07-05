@@ -68,7 +68,7 @@ const GettingYourPropertyReady = () => {
           charge for any of the damage to the walls caused by the nail holes.
         </p>
         <p className="text-xl my-4">
-          At Texas Golf Center, we have developed a standard Rent Ready
+          At Texas 9, we have developed a standard Rent Ready
           Inspection Report that all of our property managers use to inspect the
           above list of items and much more. If you are interested in getting a
           copy, contact one of our property managers today.

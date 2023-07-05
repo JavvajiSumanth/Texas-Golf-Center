@@ -22,16 +22,13 @@ const GolfMobility = () => {
               Golf Mobility & Strength Training
             </h1>
             <h1 className="tracking-wide text-md font-primary  my-3 ">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum
-              iste similique sequi vel voluptas cupiditate iusto alias
-              necessitatibus, aut fugit ipsam ab voluptates aperiam, facilis
-              numquam reprehenderit modi repellat saepe voluptatum. Ut, eos.
+            Elevate your golf performance with our dynamic Golf Mobility & Strength Training program, designed to enhance flexibility, build strength, and optimize your body's potential for a powerful and precise swing.
             </h1>
             <h1 className="uppercase tracking-wide my-3 text-2xl font-primary font-bold text-green-600">
               BENEFIT
             </h1>
             <h1 className=" my-4 tracking-wide text-xl font-primary font-bold ">
-              Flexibility | Stress reduction | Mental & Emotional Well Being
+            Improved Golf Swing Mechanics | Increased Power and Distance | Enhanced Stability and Balance
             </h1>
 
             <div className="flex flex-col justify-between bg-lime-800 rounded-lg border-2 border-gray-400 mb-6 py-5 px-4">
@@ -40,6 +37,9 @@ const GolfMobility = () => {
                   A typical Golf Mobility session
                 </h4>
                 <p className="text-gray-100 text-sm">
+                Experience a revitalizing Golf Mobility session designed to improve your flexibility, range of motion, and overall physical performance on the golf course.
+                </p>
+                {/* <p className="text-gray-100 text-sm">
                   Probabo, inquit, sic agam, ut labore et voluptatem sequi
                   nesciunt, neque porro quisquam est, quid malum, sensu
                   iudicari, sed ut alterum.
@@ -48,14 +48,9 @@ const GolfMobility = () => {
                   Probabo, inquit, sic agam, ut labore et voluptatem sequi
                   nesciunt, neque porro quisquam est, quid malum, sensu
                   iudicari, sed ut alterum.
-                </p>
-                <p className="text-gray-100 text-sm">
-                  Probabo, inquit, sic agam, ut labore et voluptatem sequi
-                  nesciunt, neque porro quisquam est, quid malum, sensu
-                  iudicari, sed ut alterum.
-                </p>
+                </p> */}
               </div>
-              <div>
+              {/* <div>
                 <div className="flex items-center justify-between text-gray-800">
                   <p className="text-sm dark:text-gray-100">March 28, 2020</p>
 
@@ -68,7 +63,7 @@ const GolfMobility = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

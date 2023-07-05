@@ -19,14 +19,14 @@ const Header = () => {
 
         <div className="absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]">
           <h1 className="text-white text-sm sm:text-xl  text-center">
-            TEXAS GOLF CENTER
+            TEXAS 9
           </h1>
           <h1 className="text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl  font-light w-[95vw] text-center bg-dark my-10 font-sans tracking-wide">
-            COMPETENCY{" "}
+            PRACTICE{" "}
             <span className="h-3 w-3 bg-white rounded-full inline-block mb-4"></span>{" "}
-            TRANSPARENCY{" "}
+            PLAY{" "}
             <span className="h-3 w-3 bg-white rounded-full inline-block mb-4"></span>{" "}
-            PROFESSIONALISM{" "}
+            CELEBRATE{" "}
           </h1>
 
           <div className="flex justify-center flex-col items-center sm:flex-row">

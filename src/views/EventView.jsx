@@ -12,22 +12,17 @@ const EventView = () => {
         <hr className="max-w-lg mx-auto" />
 
         <p className="font-primary my-10  text-secondary leading-6 tracking-widest">
-          Established in 2015, Texas Golf Center is full-service residential and
-          commercial property management company servicing Fort Worth with an
-          unwavering dedication toward the optimization of each property under
-          management. With offices in Fort Worth, Texas Golf Center is able to
-          meticulously manage client investments thoroughout Fort Worth,
-          ensuring each is operating at its highest and best use.
+        Banquet Room: 1,800 sq ft. which includes a dance floor overlooking the golf course (125 person capacity)
         </p>
 
-        <p className="font-primary my-10  text-secondary leading-6 tracking-widest">
+        {/* <p className="font-primary my-10  text-secondary leading-6 tracking-widest">
           Diversifying further, Texas Golf Center multidisciplinary team is
           unmatched in the industry. With both an in-house legal department and
           CPA’s on staff, our operation is able to avoid legal/tax issues at the
           outset and optimize revenue streams to their full potential. In the
           event legal issues do occur, our team can provide legal guidance and
           limit liability efficiently.
-        </p>
+        </p> */}
         <hr className="max-w-lg mx-auto" />
       </div>
 

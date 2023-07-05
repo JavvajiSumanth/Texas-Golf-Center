@@ -9,7 +9,7 @@ const FitnessMembership = () => {
       <MiniHeader heading={"GYM Membership"} subHeading={""} />
       <div className="text-slate-100 bg-lime-950 pt-10 font-primary">
         <h1 className=" tracking-wide text-2xl sm:text-4xl md:text-5xl lg:text-7xl text-green-600 font-bold  font-primary text-center py-8 px-4  w-fit m-auto  rounded-xl">
-          Become a TGC GYM member today!
+          Become a Texas 9 GYM member today!
         </h1>
         <div className="m-auto w-full py-8 flex items-center justify-center gap-4 text-xl font-bold">
           <h1>Monthly</h1>
@@ -32,9 +32,7 @@ const FitnessMembership = () => {
                 </div>
 
                 <div class="description text-justify ">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Facilis provident, dolorum minima veniam fuga pariatur
-                  placeat, odit magni officiis, harum eum fugiat?
+                Unlock your fitness goals with our comprehensive fitness memberships, offering access to state-of-the-art facilities, machines, and professional guidance to help you achieve your health and wellness aspirations.
                 </div>
                 <div className="flex items-center gap-x-4 justify-center my-4 ">
                   <div class="text-xl font-semibold">Monthly Individual </div>
@@ -53,7 +51,7 @@ const FitnessMembership = () => {
                   </div>
                 </div>
               </div>
-              <button className="btn-custom-rate">Buy now</button>
+              {/* <button className="btn-custom-rate">Buy now</button> */}
             </div>
           </div>
         ) : (
@@ -65,9 +63,7 @@ const FitnessMembership = () => {
                 </div>
 
                 <div class="description text-justify ">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Facilis provident, dolorum minima veniam fuga pariatur
-                  placeat, odit magni officiis, harum eum fugiat?
+                Unlock your fitness goals with our comprehensive fitness memberships, offering access to state-of-the-art facilities, diverse workout options, and professional guidance to help you achieve your health and wellness aspirations.
                 </div>
                 <div className="flex items-center gap-x-4 justify-center my-4 ">
                   <div class="text-xl font-semibold">Yearly Individual </div>
@@ -86,7 +82,7 @@ const FitnessMembership = () => {
                   </div>
                 </div>
               </div>
-              <button className="btn-custom-rate">Buy now</button>
+              {/* <button className="btn-custom-rate">Buy now</button> */}
             </div>
           </div>
         )}
