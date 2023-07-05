@@ -10,7 +10,7 @@ const Yoga = () => {
         <div className="p-8 grid grid-cols-1 lg:grid-cols-2 gap-6 w-full mx-auto">
           <div className="">
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0z6mGZPZjJ8ok1zmyjTwjY-zElzGosCGUMA&usqp=CAU"
+              src="https://cdn.yogajournal.com/wp-content/uploads/2022/03/350-yoga-journal-2022-C-andrew-clark-BC8I1025-1-1.jpg?width=1200"
               alt="hyoga"
             />
           </div>

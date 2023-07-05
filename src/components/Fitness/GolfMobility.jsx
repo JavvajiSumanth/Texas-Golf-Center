@@ -13,7 +13,7 @@ const GolfMobility = () => {
         <div className="p-8 grid grid-cols-1 lg:grid-cols-2 gap-6 w-full mx-auto">
           <div className="sticky top-0">
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCNAb9kr1mzP_bKb-b8lTkAl6gYxL1FQNHhA&usqp=CAU"
+              src="https://cdn.cybergolf.com/images/1407/DesertWillow_1022_223.jpg"
               alt="hGolfMobility"
             />
           </div>

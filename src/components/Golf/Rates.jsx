@@ -14,7 +14,7 @@ const Rates = () => {
         <h1 className="uppercase tracking-wide text-4xl text-green-600 font-bold   font-primary text-center py-4">
            RATES
         </h1>
-        <div class="mx-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 py-6 justify-items-center gap-y-8">
+        <div class="mx-4 grid grid-cols-1 md:grid-cols-2  py-6 justify-items-center gap-y-8">
           {/* <div class="mb-4 break-inside p-6 rounded-xl bg-slate-800 flex flex-col bg-clip-border">
             <h2 class="text-3xl font-extrabold dark:text-white">
               Web Design templates Selection
