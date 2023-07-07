@@ -1,6 +1,5 @@
 import MiniHeader from "../../layout/MainLayout/MiniHeader";
 import Footer from "../../reusable/Footer";
-import RateImg from "./.././../assets/images/rates.jpg";
 
 const Rates = () => {
   return (
@@ -12,9 +11,9 @@ const Rates = () => {
           BOOK YOUR TEE TIME ONLINE
         </h1>
         <h1 className="uppercase tracking-wide text-4xl text-green-600 font-bold   font-primary text-center py-4">
-           RATES
+          RATES
         </h1>
-        <div class="mx-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 py-6 justify-items-center gap-y-8">
+        <div class="mx-4 grid grid-cols-1 md:grid-cols-2 py-6 justify-items-center gap-y-8">
           {/* <div class="mb-4 break-inside p-6 rounded-xl bg-slate-800 flex flex-col bg-clip-border">
             <h2 class="text-3xl font-extrabold dark:text-white">
               Web Design templates Selection
@@ -30,7 +29,8 @@ const Rates = () => {
               <div class="title">9 HOLES</div>
               <div class="price text-green-800">$10</div>
               <div class="description">
-              Enjoy a quick and affordable golfing experience with 9 Holes, where you can tee off for just $10.
+                Enjoy a quick and affordable golfing experience with 9 Holes,
+                where you can tee off for just $10.
               </div>
             </div>
             {/* <button className="btn-custom-rate">Buy now</button> */}
@@ -40,16 +40,14 @@ const Rates = () => {
               <div class="title">9+ CART</div>
               <div class="price text-green-800">$18</div>
               <div class="description">
-              Enhance your golfing adventure with the convenience and comfort of a cart while playing more than 9 Holes, all for an unbeatable price of $18.
+                Enhance your golfing adventure with the convenience and comfort
+                of a cart while playing more than 9 Holes, all for an unbeatable
+                price of $18.
               </div>
             </div>
             {/* <button className="btn-custom-rate">Buy now</button> */}
           </div>
-         
-            
-           
-          </div>
-  
+        </div>
       </div>
 
       <Footer />

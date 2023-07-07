@@ -10,14 +10,15 @@ import { Link } from "react-router-dom";
 //   "https://images.pexels.com/photos/6969866/pexels-photo-6969866.jpeg",
 // ];
 
-import Image from "../.././assets/images/golf-bg.jpg";
+import Image from "../.././assets/golf/home.jpg";
+import GolfPng from "../.././assets/logos/Texas 9 Golf Alternate.png";
 const Header = () => {
   return (
     <div className="h-screen overflow-hidden">
       <div className="h-screen  absolute min-h-screen z-10 w-full">
         <NavBar />
 
-        <div className="absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]">
+        {/* <div className="absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]">
           <h1 className="text-white text-sm sm:text-xl  text-center">
             TEXAS 9
           </h1>
@@ -36,21 +37,17 @@ const Header = () => {
             >
               GET STARTED TODAY
             </Link>
-            {/* <Link
-              to="properties"
-              className="transition-colors duration-300  text-black px-4 py-3 text-md rounded-full bg-white outline outline-1 outline-white hover:text-white hover:bg-transparent ease-out min-w-[190px] text-center cursor-pointer"
-            >
-              VIEW VACANCIES
-            </Link> */}
+           
           </div>
-        </div>
-      </div>
-      <div className="carousel-image-item">
+        </div> */}
         <img
-          className="h-full min-h-screen object-center"
-          src={Image}
+          className="absolute h-72 right-16 top-24"
+          src={GolfPng}
           alt="the "
         />
+      </div>
+      <div className="carousel-image-item">
+        <img className="h-full w-full object-center" src={Image} alt="the " />
       </div>
     </div>
   );
