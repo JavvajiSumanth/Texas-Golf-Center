@@ -1,6 +1,5 @@
 import React from "react";
 import NavBar from "./NavBar";
-import { Link } from "react-router-dom";
 
 // const images = [
 //   "https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg",

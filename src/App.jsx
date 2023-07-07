@@ -2,6 +2,7 @@ import { IconContext } from "react-icons";
 import { AuthProvider } from "./context/AuthContext";
 import NavigationScroll from "./Helpers/NavigationScroll";
 import TheRoutes from "./routes";
+import { useEffect } from "react";
 
 function App() {
   return (

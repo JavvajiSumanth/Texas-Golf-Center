@@ -51,6 +51,7 @@ const NavBar = () => {
               <Link to="/rates">RATES</Link>
               <Link to="/memberships">MEMBERSHIPS</Link>
               <Link to="/lessons">LESSONS</Link>
+              <Link to="/tee-sheet">Tee-Sheet</Link>
             </div>
           </div>
           <div className="dropdown p-4">
@@ -60,7 +61,7 @@ const NavBar = () => {
             <div className="dropdown-content">
               <Link to="/fitness-membership">MEMBERSHIPS</Link>
 
-              <div class="relative group2">
+              <div className="relative group2">
                 <Link to="/resident-resources">SERVICES</Link>
 
                 <div className="dropdown-content submenu absolute w-fit top-0 left-36 invisible group2-hover:visible">

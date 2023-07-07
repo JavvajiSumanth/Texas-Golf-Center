@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import MapImg from "../../assets/images/us.png";
+import MapImg from "../../assets/golf/range2.jpg";
 import emailjs from "@emailjs/browser";
 
 const LeaveAMessage = ({ header }) => {
@@ -40,10 +40,10 @@ const LeaveAMessage = ({ header }) => {
       style={{
         // backgroundImage: `linear-gradient(to right,#000000a8, #000000a8), url(${MapImg})`,
 
-        backgroundImage: `linear-gradient(rgba(0,0,0,0.68), rgba(0,0,0,0.68)), url(https://images.unsplash.com/photo-1535131749006-b7f58c99034b)`,
+        backgroundImage: `linear-gradient(rgba(0,0,0,0.68), rgba(0,0,0,0.68)), url(${MapImg})`,
       }}
     >
-      <h1 className="uppercase tracking-wide text-3xl text-[#a3c332] text-center font-primary py-16">
+      <h1 className="uppercase tracking-wide text-3xl text-white text-center font-primary py-16">
         {header}
       </h1>
       {submitted && (
@@ -56,13 +56,13 @@ const LeaveAMessage = ({ header }) => {
           <h1 className="uppercase tracking-wide text-2xl text-white  font-primary ">
             GET IN TOUCH
           </h1>
-          <p className="text-secondary mt-4 text-md tracking-wide">
-          Let's talk about your golfing experience at Texas Golf Center.
+          <p className="text-white mt-4 text-md tracking-wide">
+            Let's talk about your golfing experience at Texas Golf Center.
           </p>
         </div>
         <form onSubmit={handleSubmit} ref={form}>
           <input
-            className="bg-transparent outline outline-1 outline-white mb-4 h-14 w-full max-w-screen-md rounded-sm p-4 text-white caret-white"
+            className="bg-transparent outline outline-1 outline-white mb-4 h-14 w-full max-w-screen-md rounded-sm p-4 text-white caret-white placeholder:text-white"
             type="text"
             placeholder="First & Last Name"
             required
@@ -70,7 +70,7 @@ const LeaveAMessage = ({ header }) => {
             name="from_name"
           />
           <input
-            className="bg-transparent outline outline-1 outline-white mb-4 h-14 w-full max-w-screen-md rounded-sm p-4 text-white caret-white"
+            className="bg-transparent outline outline-1 outline-white mb-4 h-14 w-full max-w-screen-md rounded-sm p-4 text-white caret-white placeholder:text-white"
             type="email"
             placeholder="Email"
             required
@@ -78,7 +78,7 @@ const LeaveAMessage = ({ header }) => {
             ref={emailRef}
           />
           <input
-            className="bg-transparent outline outline-1 outline-white mb-4 h-14 w-full max-w-screen-md rounded-sm p-4 text-white caret-white"
+            className="bg-transparent outline outline-1 outline-white mb-4 h-14 w-full max-w-screen-md rounded-sm p-4 text-white caret-white placeholder:text-white"
             type="tel"
             placeholder="Phone"
             required
@@ -86,7 +86,7 @@ const LeaveAMessage = ({ header }) => {
             name="from_phone"
           />
           <textarea
-            className="bg-transparent outline outline-1 outline-white mb-4 w-full max-w-screen-md rounded-sm p-4 text-white caret-white"
+            className="bg-transparent outline outline-1 outline-white mb-4 w-full max-w-screen-md rounded-sm p-4 text-white caret-white placeholder:text-white"
             name="message"
             id="description"
             required
