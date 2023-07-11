@@ -1,5 +1,5 @@
 import React from "react";
-import BGImg from "../../assets/golf/BG1.jpeg";
+import BGImg from "../../assets/golf/GrassWithLake.jpeg";
 import { Link } from "react-router-dom";
 const AllCards = () => {
   return (

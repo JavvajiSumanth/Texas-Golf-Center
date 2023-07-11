@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import MiniHeader from "../../layout/MainLayout/MiniHeader";
 import Footer from "../../reusable/Footer";
-import BGImg from "../../assets/golf/BG1.jpeg";
+import BGImg from "../../assets/golf/GrassWithLake.jpeg";
 import AllCards from "../Reusable/AllCards";
 const Rates = () => {
   return (

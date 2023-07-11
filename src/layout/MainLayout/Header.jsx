@@ -2,7 +2,7 @@ import GolfPng from "../.././assets/golf/white-logo.png";
 import GYMImg from "../.././assets/golf/gym.jpg";
 import RangeImg from "../.././assets/golf/Range.jpg";
 import Range2Img from "../.././assets/golf/range2.jpg";
-import BGImg from "../.././assets/golf/BG1.jpeg";
+import BGImg from "../.././assets/golf/GrassWithLake.jpeg";
 import TEETimesImg from "../.././assets/golf/teetimes.jpg";
 
 import React from "react";

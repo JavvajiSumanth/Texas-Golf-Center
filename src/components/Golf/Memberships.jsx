@@ -1,7 +1,7 @@
 import { useState } from "react";
 import MiniHeader from "../../layout/MainLayout/MiniHeader";
 import Footer from "../../reusable/Footer";
-import GolfImg from "../../assets/golf/BG1.jpeg";
+import GolfImg from "../../assets/golf/GrassWithLake.jpeg";
 import AllCards from "../Reusable/AllCards";
 import HomeImg from ".././../assets/golf/home.jpg";
 
