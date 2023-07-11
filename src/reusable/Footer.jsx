@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import LogoImg from "../assets/golf/white-logo.png";
+import ReviewImg from "../assets/golf/reviews.jpg";
 
 const Footer = () => {
   return (
@@ -8,29 +9,15 @@ const Footer = () => {
       <div className="max-w-screen-xl p-6 mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 mx-auto py-10 gap-y-4">
           <div className="col-span-1 md:col-span-2 md:px-4 w-100 md:w-4/5">
-            <img
-              src={LogoImg}
-              alt="Logo"
-              style={{
-                width: "200px",
-              }}
-              className="mx-auto"
-            />
-            <p className="mt-4">
-              Texas 9 is committed to ensuring that its website is accessible to
-              people with disabilities. All the pages on our website will meet
-              W3C WAI's Web Content Accessibility Guidelines 2.0, Level A
-              conformance. Any issues should be reported to contact@texas9.com.
-              Website Accessibility Policy
-            </p>
+            <img src={LogoImg} alt="Logo" style={{}} className="mx-auto" />
           </div>
           <div className="">
             <h1 className="font-primary text-white text-2xl tracking-wide">
               Quick Links
             </h1>
             <div className="flex flex-col space-y-1 text-secondary mt-4">
-              <Link to="/memberships">Memberships</Link>
-              <Link to="/rates">Rates</Link>
+              <Link to="/golf/memberships">Memberships</Link>
+              <Link to="/golf/rates">Rates</Link>
               {/* <Link to="/">Blog</Link> */}
               <Link to="/about">About Us</Link>
               <Link to="/contact">Contact Us</Link>
@@ -53,6 +40,12 @@ const Footer = () => {
                 Location: <span>8940 Creek Run Rd Fort Worth, TX 76120</span>
               </a>
             </div>
+            <img
+              src={ReviewImg}
+              alt="Logo"
+              style={{}}
+              className="mx-auto -ml-2 mt-3"
+            />
           </div>
         </div>
         <p className="text-center">
@@ -89,8 +82,8 @@ export default Footer;
           Quick Links
         </h1>
         <div className="flex flex-col space-y-1 text-secondary mt-4">
-          <Link to="/memberships">Memberships</Link>
-          <Link to="/rates">Rates</Link>
+          <Link to="/golf/memberships">Memberships</Link>
+          <Link to="/golf/rates">Rates</Link>
           {/* <Link to="/">Blog</Link> */}
           <Link to="/about">About Us</Link>
           <Link to="/contact">Contact Us</Link>

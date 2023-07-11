@@ -27,22 +27,38 @@ export default function TheRoutes() {
     <Routes>
       <Route path="/" element={<MainLayout />}>
         <Route exact path="/" element={<Home />} />
-        <Route exact path="/rates" element={<Rates />} />
-        <Route exact path="/memberships" element={<Memberships />} />
-        <Route exact path="/lessons" element={<Lessons />} />
-        <Route exact path="/fitness" element={<Fitness />} />
-        <Route exact path="/golf" element={<Golf />} />
-        <Route exact path="/tee-sheet" element={<Tsheet />} />
+        <Route exact path="/tee-times" element={<Tsheet />} />
+        <Route path="/golf">
+          <Route exact path="/golf" element={<Golf />} />
+          <Route exact path="/golf/rates" element={<Rates />} />
+          <Route exact path="/golf/memberships" element={<Memberships />} />
+          <Route exact path="/golf/lessons" element={<Lessons />} />
+        </Route>
+        <Route path="/fitness">
+          <Route exact path="/fitness" element={<Fitness />} />
+          <Route
+            exact
+            path="/fitness/personal-training"
+            element={<PersonalTraining />}
+          />
+          <Route exact path="/fitness/yoga" element={<Yoga />} />
+          <Route
+            exact
+            path="/fitness/massage-therapy"
+            element={<MassageTherapy />}
+          />
+          <Route
+            exact
+            path="/fitness/golf-mobility"
+            element={<GolfMobility />}
+          />
+        </Route>
         <Route
           exact
-          path="/fitness-membership"
+          path="/fitness/fitness-membership"
           element={<FitnessMembership />}
         />
 
-        <Route exact path="/personal-training" element={<PersonalTraining />} />
-        <Route exact path="/yoga" element={<Yoga />} />
-        <Route exact path="/massage-therapy" element={<MassageTherapy />} />
-        <Route exact path="/golf-mobility" element={<GolfMobility />} />
         <Route exact path="/about" element={<AboutView />} />
         <Route exact path="/event" element={<EventView />} />
         <Route exact path="/contact" element={<Contact />} />

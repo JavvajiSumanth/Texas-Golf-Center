@@ -38,7 +38,7 @@ const NavBar = () => {
           </div>
 
           <div className="p-4 bg-[#7da33f]">
-            <Link to={"/tee-sheet"}>TEE TIMES</Link>
+            <Link to={"/tee-times"}>TEE TIMES</Link>
           </div>
           <div className="dropdown p-4">
             <Link to="/golf">
@@ -46,10 +46,10 @@ const NavBar = () => {
             </Link>
 
             <div className="dropdown-content">
-              <Link to="/rates">RATES</Link>
-              <Link to="/memberships">MEMBERSHIPS</Link>
-              <Link to="/lessons">LESSONS</Link>
-              <Link to="/tee-sheet">TEE-TIMES</Link>
+              <Link to="/golf/rates">RATES</Link>
+              <Link to="/golf/memberships">MEMBERSHIPS</Link>
+              <Link to="/golf/lessons">LESSONS</Link>
+              <Link to="/tee-times">TEE-TIMES</Link>
             </div>
           </div>
           <div className="dropdown p-4">
@@ -57,18 +57,18 @@ const NavBar = () => {
               <button className="dropbtn">FITNESS</button>
             </Link>
             <div className="dropdown-content">
-              <Link to="/fitness-membership">MEMBERSHIPS</Link>
+              <Link to="/fitness/fitness-membership">MEMBERSHIPS</Link>
 
               <div className="relative group2">
-                <Link to="/resident-resources">SERVICES</Link>
+                <Link to="/fitness/services">SERVICES</Link>
 
                 <div className="dropdown-content submenu absolute w-fit top-0 left-36 invisible group2-hover:visible">
-                  <Link to="/personal-training">PERSONAL TRAINING</Link>
-                  <Link to="/golf-mobility">
+                  <Link to="/fitness/personal-training">PERSONAL TRAINING</Link>
+                  <Link to="/fitness/golf-mobility">
                     GOLF MOBILITY & STRENGTH TRAINING
                   </Link>
-                  <Link to="/massage-therapy">MASSAGE THERAPY</Link>
-                  <Link to="/yoga">YOGA</Link>
+                  <Link to="/fitness/massage-therapy">MASSAGE THERAPY</Link>
+                  <Link to="/fitness/yoga">YOGA</Link>
                 </div>
               </div>
             </div>

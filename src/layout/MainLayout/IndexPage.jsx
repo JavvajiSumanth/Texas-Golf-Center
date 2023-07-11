@@ -21,17 +21,17 @@ export default function IndexPage() {
               <span className="text-sm font-medium"> Home </span>
             </Link>
             <Link
-              to="/"
+              to="/tee-sheet"
               className="flex items-center gap-2 rounded-lg  px-4 py-2 text-gray-300 hover:bg-gray-100 hover:text-gray-800"
             >
-              <span className="text-sm font-medium"> Tee Sheet </span>
+              <span className="text-sm font-medium"> Tee Times </span>
             </Link>
-            <Link
-              to="/memberships"
+            {/* <Link
+              to="/golf/memberships"
               className="flex items-center gap-2 rounded-lg  px-4 py-2 text-gray-300 hover:bg-gray-100 hover:text-gray-800"
             >
               <span className="text-sm font-medium"> Memberships </span>
-            </Link>
+            </Link> */}
             <details className="group [&_summary::-webkit-details-marker]:hidden">
               <summary className="flex cursor-pointer items-center justify-between rounded-lg px-4 py-2 text-gray-300 hover:bg-gray-100 hover:text-gray-700">
                 <div className="flex items-center gap-2">
@@ -56,17 +56,35 @@ export default function IndexPage() {
 
               <nav aria-label="Teams Nav" className="mt-2 flex flex-col px-4">
                 <Link
-                  to="/rates"
+                  to="/golf/rates"
                   className="flex items-center gap-2 rounded-lg px-4 py-2 text-gray-300 hover:bg-gray-100 hover:text-gray-700"
                 >
                   <span className="text-sm font-medium"> Rates </span>
                 </Link>
 
                 <Link
-                  to="/lessons"
+                  to="/golf/memberships"
+                  className="flex items-center gap-2 rounded-lg px-4 py-2 text-gray-300 hover:bg-gray-100 hover:text-gray-700"
+                >
+                  <span className="text-sm font-medium"> Memberships</span>
+                </Link>
+                <Link
+                  to="/golf/lessons"
                   className="flex items-center gap-2 rounded-lg px-4 py-2 text-gray-300 hover:bg-gray-100 hover:text-gray-700"
                 >
                   <span className="text-sm font-medium"> Lessons</span>
+                </Link>
+                <Link
+                  to="/golf/lessons"
+                  className="flex items-center gap-2 rounded-lg px-4 py-2 text-gray-300 hover:bg-gray-100 hover:text-gray-700"
+                >
+                  <span className="text-sm font-medium"> Lessons</span>
+                </Link>
+                <Link
+                  to="/tee-times"
+                  className="flex items-center gap-2 rounded-lg px-4 py-2 text-gray-300 hover:bg-gray-100 hover:text-gray-700"
+                >
+                  <span className="text-sm font-medium"> TEE TIMES</span>
                 </Link>
               </nav>
             </details>
@@ -93,6 +111,13 @@ export default function IndexPage() {
               </summary>
 
               <nav aria-label="Account Nav" className="mt-2 flex flex-col px-4">
+                <Link
+                  to="/golf/fitness-membership"
+                  className="flex items-center gap-2 rounded-lg px-4 py-2 text-gray-300 hover:bg-gray-100 hover:text-gray-700"
+                >
+                  <span className="text-sm font-medium"> Membership</span>
+                </Link>
+
                 <Link
                   to="/personal-training"
                   className="flex items-center gap-2 rounded-lg px-4 py-2 text-gray-300 hover:bg-gray-100 hover:text-gray-700"
