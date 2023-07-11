@@ -4,8 +4,6 @@ import LogoImg from "../../assets/logos/Texas 9 - Social Logo.png";
 import IndexPage from "./IndexPage";
 import { FiMenu } from "react-icons/fi";
 
-const LOGIN_URL = "https://login.enochrentals.com/";
-
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const hiddenRef = useRef(null);
@@ -31,7 +29,7 @@ const NavBar = () => {
 
   return (
     <>
-      <div className="fixed z-50 w-full bg-[#162649] text-white">
+      <div className="fixed  z-50 w-full bg-[#162649] text-white">
         <div className="hidden lg:flex items-center font-semibold  links">
           <div className="mr-auto p-4">
             <Link to={"/"}>
@@ -40,7 +38,7 @@ const NavBar = () => {
           </div>
 
           <div className="p-4 bg-[#7da33f]">
-            <Link to={"/tee-sheet"}>TEE SHEET</Link>
+            <Link to={"/tee-sheet"}>TEE TIMES</Link>
           </div>
           <div className="dropdown p-4">
             <Link to="/golf">
@@ -95,15 +93,9 @@ const NavBar = () => {
             </div>
           </a>
         </div>
-        <div className="h-16 flex lg:hidden items-center text-white p-10">
+        <div className="h-14 flex lg:hidden items-center  pr-10">
           <div className="mr-auto p-3">
-            <img
-              src={LogoImg}
-              alt="Logo"
-              style={{
-                width: "120px",
-              }}
-            />
+            <img className="absolute h-16 top-2" src={LogoImg} alt="Logo" />
           </div>
           <button
             onClick={() => {

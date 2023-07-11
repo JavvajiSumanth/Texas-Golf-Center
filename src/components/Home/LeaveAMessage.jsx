@@ -43,24 +43,32 @@ const LeaveAMessage = ({ header }) => {
         backgroundImage: `linear-gradient(rgba(0,0,0,0.68), rgba(0,0,0,0.68)), url(${MapImg})`,
       }}
     >
-      <h1 className="uppercase tracking-wide text-3xl text-white text-center font-primary py-16">
-        {header}
-      </h1>
       {submitted && (
         <h1 className="text-white text-center font-primary text-xl">
           Submitted Successfully !!
         </h1>
       )}
-      <div className="p-8 grid grid-cols-1 md:grid-cols-2 gap-6 w-full lg:w-4/5 mx-auto">
-        <div>
-          <h1 className="uppercase tracking-wide text-2xl text-white  font-primary ">
-            GET IN TOUCH
-          </h1>
-          <p className="text-white mt-4 text-md tracking-wide">
-            Let's talk about your golfing experience at Texas Golf Center.
-          </p>
+      <div className="p-8 grid grid-cols-1 lg:grid-cols-2 gap-6 w-full mx-auto">
+        <div className="flex items-center pt-0 lg:pt-28">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.0913741426257!2d-97.1552483!3d32.763309899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e7c3f991b1301%3A0x8f43a2c9599156c3!2s8940%20Creek%20Run%20Rd%2C%20Fort%20Worth%2C%20TX%2076120!5e0!3m2!1sen!2sus!4v1687719563220!5m2!1sen!2sus"
+            width="100%"
+            height="100%"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="map"
+            style={{
+              maxHeight: 400,
+              minHeight: 300,
+              border: 0,
+            }}
+          ></iframe>
         </div>
-        <form onSubmit={handleSubmit} ref={form}>
+        <form onSubmit={handleSubmit} ref={form} className="max-w-xl mx-auto">
+          <h1 className="uppercase tracking-wide text-3xl text-[#a3c332] text-center font-primary py-16 font-bold">
+            {header}
+          </h1>
           <input
             className="bg-transparent outline outline-1 outline-white mb-4 h-14 w-full max-w-screen-md rounded-sm p-4 text-white caret-white placeholder:text-white"
             type="text"
