@@ -17,10 +17,7 @@ const Lessons = () => {
               LEARN <span className="text-lg">OR </span>ELEVATE
             </h1>
             <h1 className="tracking-wide text-md font-primary text-center font-semibold  my-3 ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-              quasi nulla commodi odit voluptates, omnis quis, amet nostrum,
-              aspernatur minus nemo quidem quisquam itaque porro tempora earum
-              quae? Aut debitis dignissimos eius.
+              Designed for different skill sets and abilities, swing your way to success with one-on-one or group lessons from a golf professional.
             </h1>
 
             <button className="bg-green-200 px-4 py-2 w-fit">BOOK NOW</button>

@@ -1,5 +1,9 @@
 import React from "react";
 import BGImg from "../../assets/golf/GrassWithLake.jpeg";
+import GolfTeeTimes from "../../assets/golf/golf-tee-times.jpeg";
+import GolfMemberships from "../../assets/golf/golf-memberships.jpeg";
+import GolfRates from "../../assets/golf/golf-rates.jpeg";
+import GolfLesson from "../../assets/golf/golf-lesson.jpeg";
 import { Link } from "react-router-dom";
 const AllCards = () => {
   return (
@@ -8,7 +12,7 @@ const AllCards = () => {
         <div
           className="h-60 bg-cover"
           style={{
-            backgroundImage: `url(${BGImg})`,
+            backgroundImage: `url(${GolfRates})`,
           }}
         >
           <h1 className="text-center text-3xl font-semibold mt-4">RATES</h1>
@@ -18,7 +22,7 @@ const AllCards = () => {
         <div
           className="h-60 bg-cover"
           style={{
-            backgroundImage: `url(${BGImg})`,
+            backgroundImage: `url(${GolfMemberships})`,
           }}
         >
           <h1 className="text-center text-3xl font-semibold mt-4">
@@ -30,7 +34,7 @@ const AllCards = () => {
         <div
           className="h-60 bg-cover"
           style={{
-            backgroundImage: `url(${BGImg})`,
+            backgroundImage: `url(${GolfLesson})`,
           }}
         >
           <h1 className="text-center text-3xl font-semibold mt-4">LESSONS</h1>
@@ -40,7 +44,7 @@ const AllCards = () => {
         <div
           className="h-60 bg-cover"
           style={{
-            backgroundImage: `url(${BGImg})`,
+            backgroundImage: `url(${GolfTeeTimes})`,
           }}
         >
           <h1 className="text-center text-3xl font-semibold mt-4">TEE TIMES</h1>

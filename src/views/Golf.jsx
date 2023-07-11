@@ -26,9 +26,8 @@ const Golf = () => {
                   <LiaGolfBallSolid />
                 </span>
                 <span className="text-lg  leading-relaxed">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-                  blanditiis molestias provident fugiat numquam quaerat, neque
-                  est? Unde ut odio accusantium architecto?
+                Formerly known as Texas Golf Center, our course at
+                Texas 9 is one of the highest-rated, public courses in DFW. 
                 </span>
               </p>
               <p className="flex">
@@ -36,9 +35,7 @@ const Golf = () => {
                   <LiaGolfBallSolid />
                 </span>
                 <span className="text-lg  leading-relaxed">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-                  blanditiis molestias provident fugiat numquam quaerat, neque
-                  est? Unde ut odio accusantium architecto?
+                  Designed to be flexible for beginners, yet challenging for experienced enthusiasts, each hole features unique play and pleasant outdoor views.
                 </span>
               </p>
             </div>
@@ -56,9 +53,7 @@ const Golf = () => {
                   <LiaGolfBallSolid />
                 </span>
                 <span className="text-lg  leading-relaxed">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-                  blanditiis molestias provident fugiat numquam quaerat, neque
-                  est? Unde ut odio accusantium architecto?
+                  A lighted driving range spans over 10 acres, allowing you to perfect your swing even after sunset. 
                 </span>
               </p>
               <p className="flex">
@@ -66,9 +61,7 @@ const Golf = () => {
                   <LiaGolfBallSolid />
                 </span>
                 <span className="text-lg  leading-relaxed">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-                  blanditiis molestias provident fugiat numquam quaerat, neque
-                  est? Unde ut odio accusantium architecto?
+                  Practice your putting skills on our professionally designed putting green, chipping practice green, and sand bunker area.
                 </span>
               </p>
             </div>

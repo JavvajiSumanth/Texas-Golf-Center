@@ -49,7 +49,7 @@ const NavBar = () => {
               <Link to="/rates">RATES</Link>
               <Link to="/memberships">MEMBERSHIPS</Link>
               <Link to="/lessons">LESSONS</Link>
-              <Link to="/tee-sheet">Tee-Sheet</Link>
+              <Link to="/tee-sheet">TEE-TIMES</Link>
             </div>
           </div>
           <div className="dropdown p-4">

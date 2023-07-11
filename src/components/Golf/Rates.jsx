@@ -3,6 +3,8 @@ import MiniHeader from "../../layout/MainLayout/MiniHeader";
 import Footer from "../../reusable/Footer";
 import BGImg from "../../assets/golf/GrassWithLake.jpeg";
 import AllCards from "../Reusable/AllCards";
+
+
 const Rates = () => {
   return (
     <div>
@@ -28,17 +30,15 @@ const Rates = () => {
                 <div className="flex justify-around">
                   <div>
                     <div className="title">9 HOLES</div>
-                    <div className="price text-green-800">$8</div>
+                    <div className="price text-green-800">$10</div>
                   </div>
                   <div>
-                    <div className="title">9 HOLES + CART</div>
-                    <div className="price text-green-800">$12</div>
+                    <div className="title">9 HOLES + CART </div>
+                    <div className="price text-green-800">$20</div>
                   </div>
                 </div>
                 <div className="text-md">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse
-                  dolore quos officia, dolorum vero asperiores incidunt enim
-                  architecto? Odio eligendi sequi animi.
+                  Enjoy a quick and affordable golfing experience on-foot, or upgrade your golfing adventure to include a cart full of modern comforts.
                 </div>
               </div>
             </div>
@@ -52,13 +52,11 @@ const Rates = () => {
                   </div>
                   <div>
                     <div className="title">9 HOLES + CART</div>
-                    <div className="price text-green-800">$18</div>
+                    <div className="price text-green-800">$28</div>
                   </div>
                 </div>
                 <div className="text-md">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse
-                  dolore quos officia, dolorum vero asperiores incidunt enim
-                  architecto? Odio eligendi sequi animi.
+                  Enjoy a quick and affordable golfing experience on-foot, or upgrade your golfing adventure to include a cart full of modern comforts.
                 </div>
               </div>
             </div>

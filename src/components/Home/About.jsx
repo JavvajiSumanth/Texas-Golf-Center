@@ -8,33 +8,28 @@ const About = () => {
           <p className="text-sm md:text-lg font-bold">
             9-Hole Executive Golf Course:{" "}
             <span className="font-normal leading-relaxed">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-              blanditiis molestias provident fugiat numquam quaerat, neque est?
-              Unde ut odio accusantium architecto?
+            DFW’s best public course, perfect for golf enthusiasts of all levels.
             </span>
           </p>
           <p className="text-sm md:text-lg font-bold">
-            9-Hole Executive Golf Course:{" "}
+             Lighted Driving Range:{" "}
             <span className="font-normal leading-relaxed">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-              blanditiis molestias provident fugiat numquam quaerat, neque est?
-              Unde ut odio accusantium architecto?
+            Spanning over 10 acres is a golfer's paradise, allowing you to perfect your swing even after sunset.
             </span>
           </p>
           <p className="text-sm md:text-lg font-bold">
-            9-Hole Executive Golf Course:{" "}
+              Practice Greens:{" "}
             <span className="font-normal leading-relaxed">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-              blanditiis molestias provident fugiat numquam quaerat, neque est?
-              Unde ut odio accusantium architecto?
+            Practice your putting skills on our professionally designed putting green, or take on the challenge of our chipping practice green and sand bunker area.
+
+
             </span>
           </p>
           <p className="text-sm md:text-lg font-bold">
-            9-Hole Executive Golf Course:{" "}
+              Amenities & Services:{" "}
             <span className="font-normal leading-relaxed">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-              blanditiis molestias provident fugiat numquam quaerat, neque est?
-              Unde ut odio accusantium architecto?
+            Learn more about our membership packages, training, fitness center, and event venue.
+
             </span>
           </p>
         </div>
