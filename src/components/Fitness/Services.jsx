@@ -1,6 +1,8 @@
 import MiniHeader from "../../layout/MainLayout/MiniHeader";
 import Footer from "../../reusable/Footer";
 import RangeImg from "../../assets/golf/Range.jpg";
+import MassageImg from "../../assets/golf/massage-therapy.jpg";
+import TrainingImg from "../../assets/golf/strength-training.jpg";
 import AllCards from "../Reusable/AllCards";
 import MainCard from "../Reusable/MainCard";
 const Services = () => {
@@ -14,30 +16,35 @@ const Services = () => {
             Img={RangeImg}
             header={"Personal Training"}
             body={
-              "Designed for different skill sets and abilities, swing your way to success with one-on-one or group lessons from a golf professional. different skill sets and abilities, swing your way to success with one-on-one or group lessons from a golf professional."
+              "Schedule an opportunity to talk to our physical trainer. MORE INFORMATION COMING SOON."
             }
+            button={"LEARN MORE"}
           />
           <MainCard
-            Img={RangeImg}
+            Img={TrainingImg}
             header={"MOBILITY AND STRENGTH TRAINING"}
             body={
-              "Designed for different skill sets and abilities, swing your way to success with one-on-one or group lessons from a golf professional. different skill sets and abilities, swing your way to success with one-on-one or group lessons from a golf professional."
+              "Schedule an opportunity to talk to our physical trainer. MORE INFORMATION COMING SOON."
             }
+            button={"LEARN MORE"}
           />
 
           <MainCard
             Img={RangeImg}
             header={"YOGA"}
             body={
-              "Designed for different skill sets and abilities, swing your way to success with one-on-one or group lessons from a golf professional. different skill sets and abilities, swing your way to success with one-on-one or group lessons from a golf professional."
+              "Maddie Wildman is the resident yoga instructor at Texas 9. Her teaching philosophy centers around inclusivity and accessibility, believing that yoga is for everyone, regardless of age or skill level. Maddie’s classes cater to a diverse range of individuals, from seniors seeking gentle movement to advanced practitioners looking to deepen their practice. She is committed to creating a safe and supportive environment where students can explore and grow in their yoga journey.."
             }
+            button={"LEARN MORE"}
           />
           <MainCard
-            Img={RangeImg}
+            Img={MassageImg}
             header={"MASSAGE THERAPY"}
             body={
-              "Designed for different skill sets and abilities, swing your way to success with one-on-one or group lessons from a golf professional. different skill sets and abilities, swing your way to success with one-on-one or group lessons from a golf professional."
+              "Schedule an opportunity to talk to our massage therapist. MORE INFORMATION COMING SOON."
+
             }
+            button={"LEARN MORE"}
           />
         </div>
         <AllCards />

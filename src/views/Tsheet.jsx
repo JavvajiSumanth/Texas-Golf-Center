@@ -1,6 +1,7 @@
 import MiniHeader from "../layout/MainLayout/MiniHeader";
 import Footer from "../reusable/Footer";
 import RangeImg from "../assets/golf/range2.jpg";
+import TeeTimesImg from "../assets/golf/TEE-TIMES-MINI-HEADER.jpg";
 import { useEffect } from "react";
 import AllCards from "../components/Reusable/AllCards";
 import MainCard from "../components/Reusable/MainCard";
@@ -17,7 +18,7 @@ const Tsheet = () => {
   //REMOVE TSHEET
   return (
     <div>
-      <MiniHeader heading={"Tee Times"} subHeading={""} image={RangeImg} />
+      <MiniHeader heading={"Tee Times"} subHeading={""} image={TeeTimesImg} />
       <div className="p-16 bg-[#162649]">
         <MainCard
           Img={RangeImg}

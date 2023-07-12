@@ -2,13 +2,14 @@ import { useEffect } from "react";
 import MiniHeader from "../../layout/MainLayout/MiniHeader";
 import Footer from "../../reusable/Footer";
 import BGImg from "../../assets/golf/GrassWithLake.jpeg";
+import RatesHeader from "../../assets/golf/golf-rates-header.jpg";
 import AllCards from "../Reusable/AllCards";
 
 
 const Rates = () => {
   return (
     <div>
-      <MiniHeader heading={"Rates"} subHeading={""} />
+      <MiniHeader heading={"Rates"} subHeading={""} image={RatesHeader}/>
 
       <div className="p-16 bg-[#162649]">
         <div

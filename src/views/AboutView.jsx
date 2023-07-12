@@ -1,17 +1,18 @@
 import MiniHeader from "../layout/MainLayout/MiniHeader";
 import Footer from "../reusable/Footer";
 import LeaveAMessage from "../components/Home/LeaveAMessage";
-import RangeImg from "../assets/images/building.jpeg";
+import AboutImage from "../assets/images/about-image.jpg";
 import LogoImg from "../assets/logos/Texas 9 Golf.png";
+import AboutHeader from "../assets/golf/about-header.jpg";
 const AboutView = () => {
   return (
     <div>
-      <MiniHeader heading={"About Us"} subHeading={""} />
+      <MiniHeader heading={"About Us"} subHeading={""} image={AboutHeader}/>
       <div className="bg-contain bg-no-repeat bg-center bg-[#162649]  pt-6 font-primary">
         <div className="p-8 grid grid-cols-1 gap-6 w-full mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 ">
             <div className="">
-              <img src={RangeImg} alt="hGolfMobility" />
+              <img src={AboutImage} alt="hGolfMobility" />
             </div>
             <div className="bg-white p-10 flex flex-col items-center  relative">
               <h1 className="uppercase tracking-wide text-4xl font-primary font-bold  text-center mt-6">
