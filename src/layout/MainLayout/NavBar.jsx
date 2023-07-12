@@ -61,7 +61,7 @@ const NavBar = () => {
 
               <div className="relative group2">
                 <Link to="/fitness/services">SERVICES</Link>
-
+                {/* 
                 <div className="dropdown-content submenu absolute w-fit top-0 left-36 invisible group2-hover:visible">
                   <Link to="/fitness/personal-training">PERSONAL TRAINING</Link>
                   <Link to="/fitness/golf-mobility">
@@ -69,7 +69,7 @@ const NavBar = () => {
                   </Link>
                   <Link to="/fitness/massage-therapy">MASSAGE THERAPY</Link>
                   <Link to="/fitness/yoga">YOGA</Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

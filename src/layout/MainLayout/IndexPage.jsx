@@ -112,13 +112,19 @@ export default function IndexPage() {
 
               <nav aria-label="Account Nav" className="mt-2 flex flex-col px-4">
                 <Link
-                  to="/golf/fitness-membership"
+                  to="/fitness/fitness-membership"
                   className="flex items-center gap-2 rounded-lg px-4 py-2 text-gray-300 hover:bg-gray-100 hover:text-gray-700"
                 >
-                  <span className="text-sm font-medium"> Membership</span>
+                  <span className="text-sm font-medium"> Memberships</span>
+                </Link>
+                <Link
+                  to="/fitness/services"
+                  className="flex items-center gap-2 rounded-lg px-4 py-2 text-gray-300 hover:bg-gray-100 hover:text-gray-700"
+                >
+                  <span className="text-sm font-medium"> Services</span>
                 </Link>
 
-                <Link
+                {/* <Link
                   to="/personal-training"
                   className="flex items-center gap-2 rounded-lg px-4 py-2 text-gray-300 hover:bg-gray-100 hover:text-gray-700"
                 >
@@ -148,7 +154,7 @@ export default function IndexPage() {
                   className="flex items-center gap-2 rounded-lg px-4 py-2 text-gray-300 hover:bg-gray-100 hover:text-gray-700"
                 >
                   <span className="text-sm font-medium"> YOGA</span>
-                </Link>
+                </Link> */}
               </nav>
             </details>
             <Link

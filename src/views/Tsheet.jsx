@@ -3,6 +3,7 @@ import Footer from "../reusable/Footer";
 import RangeImg from "../assets/golf/range2.jpg";
 import { useEffect } from "react";
 import AllCards from "../components/Reusable/AllCards";
+import MainCard from "../components/Reusable/MainCard";
 
 const Tsheet = () => {
   //REMOVE TSHEET
@@ -16,25 +17,16 @@ const Tsheet = () => {
   //REMOVE TSHEET
   return (
     <div>
-      <MiniHeader heading={"Tsheet"} subHeading={""} image={RangeImg} />
+      <MiniHeader heading={"Tee Times"} subHeading={""} image={RangeImg} />
       <div className="p-16 bg-[#162649]">
-        <div
-          className="min-h-[80vh] bg-cover  "
-          style={{
-            backgroundImage: `url(${RangeImg})`,
-          }}
-        >
-          <div className="p-8 grid grid-cols-1 md:grid-cols-2 gap-6 w-full lg:w-4/5 mx-auto">
-            <div>
-              <h1 className="uppercase tracking-wide text-2xl text-white  font-primary ">
-                TEE TIMES
-              </h1>
-              <p className="text-secondary mt-4 text-md tracking-wide">
-                
-              </p>
-            </div>
-          </div>
-        </div>
+        <MainCard
+          Img={RangeImg}
+          header={"RESERVE YOUR RELAXATION"}
+          body={
+            "Minimize the wait and schedule your next visit on our executive course. Anticipated play is 90 minutes on a lush course with serene views. Afterwards enjoy our comfortable clubhouse with modern amenities."
+          }
+          footer="*Tee Times are recommended, but not required"
+        />
         <AllCards />
       </div>
       <Footer />
