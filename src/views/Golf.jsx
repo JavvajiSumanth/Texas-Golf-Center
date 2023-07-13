@@ -6,7 +6,7 @@ const Golf = () => {
   return (
     <div>
       <MiniHeader heading={"Golf"} subHeading={""} />
-      <div className="grid grid-cols-1 gap-y-16  font-primary bg-[#162649] p-16">
+      <div className="grid grid-cols-1 gap-y-6 md:gap-y-16  font-primary bg-[#162649] p-5 md:p-16">
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div className="flex">
             <img
@@ -26,8 +26,8 @@ const Golf = () => {
                   <LiaGolfBallSolid />
                 </span>
                 <span className="text-lg  leading-relaxed">
-                Formerly known as Texas Golf Center, our course at
-                Texas 9 is one of the highest-rated, public courses in DFW. 
+                  Formerly known as Texas Golf Center, our course at Texas 9 is
+                  one of the highest-rated, public courses in DFW.
                 </span>
               </p>
               <p className="flex">
@@ -35,7 +35,9 @@ const Golf = () => {
                   <LiaGolfBallSolid />
                 </span>
                 <span className="text-lg  leading-relaxed">
-                  Designed to be flexible for beginners, yet challenging for experienced enthusiasts, each hole features unique play and pleasant outdoor views.
+                  Designed to be flexible for beginners, yet challenging for
+                  experienced enthusiasts, each hole features unique play and
+                  pleasant outdoor views.
                 </span>
               </p>
             </div>
@@ -53,7 +55,8 @@ const Golf = () => {
                   <LiaGolfBallSolid />
                 </span>
                 <span className="text-lg  leading-relaxed">
-                  A lighted driving range spans over 10 acres, allowing you to perfect your swing even after sunset. 
+                  A lighted driving range spans over 10 acres, allowing you to
+                  perfect your swing even after sunset.
                 </span>
               </p>
               <p className="flex">
@@ -61,7 +64,8 @@ const Golf = () => {
                   <LiaGolfBallSolid />
                 </span>
                 <span className="text-lg  leading-relaxed">
-                  Practice your putting skills on our professionally designed putting green, chipping practice green, and sand bunker area.
+                  Practice your putting skills on our professionally designed
+                  putting green, chipping practice green, and sand bunker area.
                 </span>
               </p>
             </div>

@@ -19,7 +19,7 @@ const Tsheet = () => {
   return (
     <div>
       <MiniHeader heading={"Tee Times"} subHeading={""} image={TeeTimesImg} />
-      <div className="p-16 bg-[#162649]">
+      <div className="p-5 md:p-16 bg-[#162649]">
         <MainCard
           Img={RangeImg}
           header={"RESERVE YOUR RELAXATION"}

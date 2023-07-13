@@ -5,13 +5,12 @@ import BGImg from "../../assets/golf/GrassWithLake.jpeg";
 import RatesHeader from "../../assets/golf/golf-rates-header.jpg";
 import AllCards from "../Reusable/AllCards";
 
-
 const Rates = () => {
   return (
     <div>
-      <MiniHeader heading={"Rates"} subHeading={""} image={RatesHeader}/>
+      <MiniHeader heading={"Rates"} subHeading={""} image={RatesHeader} />
 
-      <div className="p-16 bg-[#162649]">
+      <div className="p-5 md:p-16 bg-[#162649]">
         <div
           className="text-slate-100 pb-10 bg-cover bg-center font-primary"
           style={{
@@ -39,7 +38,9 @@ const Rates = () => {
                   </div>
                 </div>
                 <div className="text-md">
-                  Enjoy a quick and affordable golfing experience on-foot, or upgrade your golfing adventure to include a cart full of modern comforts.
+                  Enjoy a quick and affordable golfing experience on-foot, or
+                  upgrade your golfing adventure to include a cart full of
+                  modern comforts.
                 </div>
               </div>
             </div>
@@ -57,7 +58,9 @@ const Rates = () => {
                   </div>
                 </div>
                 <div className="text-md">
-                  Enjoy a quick and affordable golfing experience on-foot, or upgrade your golfing adventure to include a cart full of modern comforts.
+                  Enjoy a quick and affordable golfing experience on-foot, or
+                  upgrade your golfing adventure to include a cart full of
+                  modern comforts.
                 </div>
               </div>
             </div>

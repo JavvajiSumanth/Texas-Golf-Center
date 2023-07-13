@@ -25,7 +25,9 @@ const Contact = () => {
               </div>
 
               <div>
-                <h2 className="font-primary text-xl mb-1">Fort Worth Location</h2>
+                <h2 className="font-primary text-xl mb-1">
+                  Fort Worth Location
+                </h2>
                 <p className="text-black">
                   <a
                     href="https://www.bing.com/maps?osid=33722351-871f-4413-961a-de30d5342d6d&cp=32.763407~-97.155837&lvl=16&v=2&sV=2&form=S00027"
@@ -69,8 +71,6 @@ const Contact = () => {
               <div>
                 <h2 className="font-primary text-xl mb-1">
                   Monday-Sunday 7:00 am – 9:00 pm
-                  
-                  
                 </h2>
               </div>
             </div>
@@ -81,9 +81,9 @@ const Contact = () => {
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.0913741426257!2d-97.1552483!3d32.763309899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e7c3f991b1301%3A0x8f43a2c9599156c3!2s8940%20Creek%20Run%20Rd%2C%20Fort%20Worth%2C%20TX%2076120!5e0!3m2!1sen!2sus!4v1687719563220!5m2!1sen!2sus"
         width="100%"
         height="100%"
-        allowfullscreen=""
+        allowFullScreen=""
         loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
+        referrerPolicy="no-referrer-when-downgrade"
         title="map"
         style={{
           minHeight: 300,

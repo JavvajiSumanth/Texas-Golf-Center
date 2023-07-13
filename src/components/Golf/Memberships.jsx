@@ -10,7 +10,7 @@ const Membership = () => {
   return (
     <div>
       <MiniHeader heading={"Memberships"} image={HomeImg} />
-      <div className="p-16 bg-[#162649]">
+      <div className="p-5 md:p-16 bg-[#162649]">
         <div
           className="text-slate-100 pt-10 font-primary bg-cover bg-center"
           style={{
